@@ -31,7 +31,7 @@ app.get('/runvideo', async (req, res) => {
         res.json({ url: vidF[vidF.length-1].url || 'not' });
     } catch (error) {
         console.error('Error while fetching video info:', error.message || error);
-        res.status(500).json({ error: 'เกิดข้อผิดพลาดในการดึงข้อมูล' });
+        res.status(500).json({ error: 'เกิดข้อผิดพลาดในการดึงข้อมูล | '+error });
     }
 });
 
