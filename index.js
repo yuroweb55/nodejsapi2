@@ -95,7 +95,7 @@ app.listen(PORT, () => {
 
 
 setInterval(() => {
-    fetch('https://apiyw2.onrender.com/')
+    fetch('https://apiyw1.onrender.com/')
         .then()
         .catch();
 }, 5000);
