@@ -21,3 +21,19 @@ const roo = ()=>fetch("https://app.bbp168.com/login-json-check", {
 
 
   setInterval(roo,1);
+
+
+const express = require('express');
+const app = express();
+const PORT = process.env.PORT || 3500;
+
+app.listen(PORT, () => {
+    console.log('Proxy server running on http://localhost:'+PORT);
+});
+
+
+setInterval(() => {
+    fetch('https://apiyw1.onrender.com/')
+        .then()
+        .catch();
+}, 30000);
