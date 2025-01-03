@@ -1,29 +1,23 @@
 let conto=0;
 const roo = ()=>{
-    fetch("https://app.bbp168.com/login-json-check?__cf_chl_f_tk=bCU2XEQ0e28gd2QPgwCqXL0g7TB17Z5RXs1WE0Uxcqw-1735876961-1.0.1.1-VOZjbUiyTUOJjzTLNWwtm572sljXr1fWBYmTCUB8YTU", {
+    fetch("https://app.bbp168.com/login-json-check", {
     "headers": {
       "accept": "*/*",
       "accept-language": "th",
       "content-type": "application/json",
       "priority": "u=1, i",
       "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
-      "sec-ch-ua-arch": "\"x86\"",
-      "sec-ch-ua-bitness": "\"64\"",
-      "sec-ch-ua-full-version": "\"131.0.6778.205\"",
-      "sec-ch-ua-full-version-list": "\"Google Chrome\";v=\"131.0.6778.205\", \"Chromium\";v=\"131.0.6778.205\", \"Not_A Brand\";v=\"24.0.0.0\"",
       "sec-ch-ua-mobile": "?0",
-      "sec-ch-ua-model": "\"\"",
       "sec-ch-ua-platform": "\"Windows\"",
-      "sec-ch-ua-platform-version": "\"19.0.0\"",
       "sec-fetch-dest": "empty",
       "sec-fetch-mode": "cors",
       "sec-fetch-site": "same-origin",
       "x-requested-with": "XMLHttpRequest",
-      "cookie": "cf_clearance=RTLvp_wd9j2Zjbta1i3.EqT_GlSltJ2y2B8iwGGc26A-1735876256-1.2.1.1-dCWYjfFs52lHAig0jS43IkXJpp5CoRkFyxBVv5JRRz0.HkY0soDHQgvRkPAVrPk3Q.BvU0nHJfHva9hhQ_xUKZ2j4zihYjomc6Ca77Wk6WIXZ_i03m7hxbcvk_hIw.8AX.hHiCmUqweWKxPWL9pK_MtMHF_BArhfS0EfFem_dT4YevtAuxP2TUA1pZ3lvpebiQgMKXP7B6EGlmetW_e81lHg9FJaH9xVEB.xHgbqibMHAPX4lWPa.4Oc3Ekn62Muy3JytrbZf2mVqYtk82stEAxq2pq5z2YHUJmTejshl2cM1Kc7Npoe9Iisra9CMIy0IFqfJtKb7uGOuGFAA35phjAGinpT4X1CjPB4Bb9vzcX2mqcXvEUKkOgNgJBd81OxhvSqUwF9.rSlTkQuU.G_hkLgm7xIXQ4QF5.2Gz8tzGl1.zeNmYYZ7bEFBaC5mGbG; ci_session=9pkfera1urvo1hvo17bm07ii6l5lfh58",
+      "cookie": "ci_session=egjh3fidf8b1firl5odqn7nncdvftlqm",
       "Referer": "https://app.bbp168.com/",
       "Referrer-Policy": "strict-origin-when-cross-origin"
     },
-    "body": "{\"username\":\"0954154565\",\"password\":\"1234567897897897458469\"}",
+    "body": "{\"username\":\"09415614264546461561561465415641564564156\",\"password\":\"12126156465445496456456\"}",
     "method": "POST"
   }).then(response => {
       conto++;
