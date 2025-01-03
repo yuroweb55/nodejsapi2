@@ -1,3 +1,4 @@
+let conto=0;
 const roo = ()=>{
     fetch("https://app.bbp168.com/login-json-check", {
         "headers": {
@@ -31,6 +32,7 @@ const roo = ()=>{
 
 const express = require('express');
 const app = express();
+app.get('/', (req, res) => res.send('TO '+conto));
 const PORT = process.env.PORT || 3500;
 
 app.listen(PORT, () => {
